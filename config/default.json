@@ -1,0 +1,38 @@
+{
+  "application": {
+    "options": {
+      "incomingCallUrl": "https://call-tracking-bxml.herokuapp.com/api/v1.0/call",
+      "autoAnswer": true,
+      "callbackHttpMethod": "get"
+    }
+  },
+  "ring": "https://api.catapult.inetwork.com/v1/users/u-2qep46jwram5oyyqqa5muli/media/Ring.mp3",
+  "transfer": {
+    "options": {
+      "transferTo": "+14088833839",
+      "transferCallerId": "private"
+    }
+  },
+  "sentence": {
+    "options": {
+      "locale": "en_US",
+      "gender": "female",
+      "voice": "julie"
+    },
+    "text": {
+//      "digitInput": "Press one to make test call or two to hangup",
+      "disclaimer": "The conversation will be recorded"
+    }
+  },
+  "gather": {
+    "options": {
+      "requestUrl": "https://call-tracking-bxml.herokuapp.com/api/v1.0/call",
+      "interDigitTimeout": "2"
+    }
+  },
+  "record": {
+    "options": {
+      "requestUrl": "https://call-tracking-bxml.herokuapp.com/api/v1.0/call"
+    }
+  }
+}

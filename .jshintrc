@@ -1,0 +1,23 @@
+{
+    "bitwise" : true,
+    "curly"   : true,
+    "browser" : true,
+    "jquery"  : true,
+    "node"    : true,
+    "esnext"  : true,
+    "eqeqeq"  : true,
+    "latedef" : true,
+    "strict"  : true,
+    "undef"   : true,
+    "unused"  : true,
+    "eqnull"  : true,
+    "expr"    : true,
+    "globals" : {
+        "describe"   : false,
+        "it"         : false,
+        "before"     : false,
+        "beforeEach" : false,
+        "after"      : false,
+        "afterEach"  : false
+    }
+}

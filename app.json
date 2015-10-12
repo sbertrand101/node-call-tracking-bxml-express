@@ -1,0 +1,27 @@
+{
+  "name": "Call-Tracking-NodeJS-Expess",
+  "description": "Bandwidth Call Tracking NodeJS Example.",
+  "repository": "https://github.com/BandwidthExamples/node-call-tracking-bxml-express.git",
+  "env": {
+    "API_TOKEN": {
+      "description": "Token of your catapult account.",
+      "required": "true"
+    },
+    "API_SECRET": {
+      "description": "Secret of your catapult account.",
+      "required": "true"
+    },
+    "USER_ID": {
+      "description": "Id of your catapult account.",
+      "required": "true"
+    },
+    "APPLICATION_ID": {
+      "description": "The application Id of catapult account.",
+      "required": "true"
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": [
+    "mongolab:sandbox"
+  ]
+}
