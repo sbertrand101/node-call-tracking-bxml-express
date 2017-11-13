@@ -1,6 +1,13 @@
-# Bandwidth Call Tracking NodeJS Example #
+<div align="center">
+
+# Bandwidth Call Tracking NodeJS Example 
+
+<a href="http://dev.bandwidth.com"><img src="https://s3.amazonaws.com/bwdemos/BW-VMP.png"/></a>
+</div>
 
 Bandwidth voice API Sample App for Call Tracking. See [docs](http://ap.bandwidth.com/).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### The flow of the app ###
 
